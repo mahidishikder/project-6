@@ -21,6 +21,7 @@
           },
           backgroundImage: {
             tails: "url('./assets/bg.jpg')",
+           arrow: "url('./assets/vector.png')"
           }
         }
       }
@@ -44,9 +45,6 @@
    }
   </style>
 <!-- Tailwind Css -->
-
-
-
 
 </head>
 
@@ -149,10 +147,12 @@
 
   <!-- Main -->
   <main>
-  <!-- House Space -->
+  <!-- About Us -->
   <section class="bg-[#f4f4f4] pt-20 pb-24">
+    
 
-    <div class="max-w-7xl mx-auto  lg:flex  items-center gap-8 px-4">
+    <div class="max-w-7xl mx-auto  lg:flex  items-center gap-8 px-4 ">
+      
       <!-- left -->
       <div class="left lg:flex-1">
         <!-- Problems Button///////////////////////////////////////////////////////////// -->
@@ -275,8 +275,58 @@
     </section>
 
     <!-- Our Latest Portfolio -->
-     <section>
+     <section class="bg-white py-20">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center">
+          <button class="bg-[#acef5f3a] py-2 px-4 rounded-full font-bold">
+            <i class="fa-solid fa-arrow-right-long text-gray-500 mr-2"></i>
+            Explore our Latest works
+          </button>
+          <h2 class="font-extrabold text-4xl my-6">Our Latest Portfolio</h2>
+          <p class="font-medium text-gray-700 lg:w-3/6 md:w-4/6 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+  
+         </div>
+          
+         <!-- grid  -->
+         <div class="grid lg:grid-cols-12 p-4 gap-6">
 
+          <div class="border border-gray-300 rounded-xl p-6 lg:col-span-9 sm:col-span-12 sm:flex space-y-6 sm:space-y-0 items-center sm:gap-6">
+            <img src="assets/img1.png" alt="">
+            <div>
+              <h2 class="font-extrabold text-xl">Commercial</h2>
+              <p class="font-medium text-gray-600 my-4 mb-5">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+              <button class="font-extrabold ">View Details <i class="fa-solid fa-arrow-right-long bg-lime-400 p-2 rounded-full text-black -rotate-45 ml-1"></i></button>
+            </div>
+          </div>
+
+          <div class="border border-gray-300 rounded-xl p-6 lg:col-span-3 sm:col-span-6">
+            <img src="assets/img2.png" alt="">
+          </div>
+
+          <div class="border border-gray-300 rounded-xl p-6 lg:col-span-3 sm:col-span-6">
+            <img src="assets/img3.png" alt="">
+          </div>
+
+          <div class="border border-gray-300 rounded-xl p-6 lg:col-span-6 sm:col-span-12 sm:flex space-y-6 sm:space-y-0 items-center sm:gap-6">
+            <img src="assets/img4.png" alt="">
+            <div>
+              <h2 class="font-extrabold text-xl">Commercial</h2>
+              <p class="font-medium text-gray-600 my-4 mb-5">The barn house captivates with its blend of rustic charm and modern. </p>
+              <button class="font-extrabold ">View Details <i class="fa-solid fa-arrow-right-long bg-lime-400 p-2 rounded-full text-black -rotate-45 ml-1"></i></button>
+            </div>
+          </div>
+
+          <div class="border border-gray-300 rounded-xl p-6 lg:col-span-3 sm:col-span-6 ">
+            <img class="" src="assets/img3.png" alt="">
+          </div>
+
+          <div class="border border-gray-300 rounded-xl p-6 lg:hidden sm:col-span-6">
+            <img src="assets/img5.png" alt="">
+          </div>
+         </div>
+
+      </div>
+          
      </section>
 
      <!-- emty////////////////////////////////////////////////////// -->
